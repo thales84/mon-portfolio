@@ -97,7 +97,21 @@ L'application utilise l'API OpenWeatherMap et propose des graphiques interactifs
     year: 2023,
     duration: '1 mois',
     client: 'Projet personnel'
-  }
+  },
+  // Ajouter un 4ème projet
+{
+  id: 4,
+  title: 'Application de Gestion de Tâches',
+  description: 'Application de productivité avec drag & drop et synchronisation cloud',
+  fullDescription: `Application de gestion de tâches moderne développée avec React et Firebase. Fonctionnalités avancées de drag & drop, catégories personnalisables et synchronisation en temps réel.`,
+  technologies: ['React', 'Firebase', 'Tailwind CSS', 'DnD Kit'],
+  image: '/images/project4.jpg',
+  githubUrl: 'https://github.com/votrenom/task-manager',
+  liveUrl: 'https://task-manager-demo.vercel.app',
+  featured: true,
+  // ... autres propriétés
+}
+  
 ]
 
 export function getProjectById(id) {
